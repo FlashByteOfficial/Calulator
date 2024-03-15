@@ -1,0 +1,21 @@
+.button {
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: rgb(193, 255, 211);
+  color: black;
+}
+
+.button:active {
+  scale: 0.99;
+}
+
+.button:last-child:hover {
+  background-color: tomato;
+  color: white;
+}

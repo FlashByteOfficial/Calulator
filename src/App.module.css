@@ -1,0 +1,14 @@
+.appContainer {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  min-width: 320px;
+  scale: 0.75;
+}
+
+.title {
+  text-wrap: nowrap;
+}

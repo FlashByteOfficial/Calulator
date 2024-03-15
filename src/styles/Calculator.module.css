@@ -1,0 +1,19 @@
+.calculator {
+  width: clamp(320px, 35%, 400px);
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+  gap: 0.7rem;
+}
+
+.calculator > input {
+  grid-column: 1/-1;
+  padding: 1.5rem;
+  margin-block-end: 0.65rem;
+  border: none;
+}
+
+.calculator > button:last-child {
+  grid-column: 1/-1;
+}
